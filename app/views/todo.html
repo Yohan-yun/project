@@ -14,12 +14,14 @@
 	<p></p>
 
 	<!-- Todos list -->
+	<div ui-sortable ng-model="todos">
 	<p class="input-group" ng-repeat="todo in todos" style="padding:5px 10px; cursor: move;">
 	<input type="text" value="{{todo}}" class="form-control">
 	<span class="input-group-btn">
 		<button class="btn btn-danger" ng-click="removeTodo($index)" aria-label="Remove">X</button>
 	</span>
 	</p>
+	</div>
 </div>
 
 

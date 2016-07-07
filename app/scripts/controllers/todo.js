@@ -18,10 +18,4 @@ angular.module('myToDoApp')
 	  $scope.removeTodo = function(index){
 		  $scope.todos.splice(index, 1);
 	  };
-
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+ });
